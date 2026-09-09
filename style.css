@@ -1,0 +1,184 @@
+@font-face {
+    font-family: "EggFont";
+    src: url("file/font.ttf") format("truetype");
+}
+
+body {
+    font-family: "EggFont";
+}
+/* ページ全体 */
+/* 音量コントロール */
+.volume-control {
+    position: fixed;
+
+padding: 0px 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    background: white;
+
+    padding: 8px 12px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
+
+    z-index: 1000;
+}
+
+/* 音量ボタン */
+#volumeButton {
+    background: none;
+
+    color: #333;
+
+    padding: 5px;
+
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+/* 音量スライダー */
+#volumeSlider {
+    width: 100px;
+    cursor: pointer;
+}
+
+/* ヘッダー */
+header {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 50px;
+
+    background: white;
+
+    border-bottom: 1px solid #ddd;
+}
+
+
+/* ロゴ */
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+/* メニュー */
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+
+/* メニューのリンク */
+nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+/* マウスを乗せたとき */
+nav a:hover {
+    color: #888;
+}
+
+
+/* トップ部分 */
+.hero {
+    text-align: center;
+
+    padding: 120px 20px;
+
+    background: white;
+}
+
+
+/* 大きなタイトル */
+.hero h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+
+/* キャッチコピー */
+.hero p {
+    font-size: 24px;
+    color: #777;
+}
+
+
+/* セクション */
+.about,
+.contact {
+    max-width: 800px;
+
+    margin: 60px auto;
+
+    padding: 40px;
+
+    background: white;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+/* 見出し */
+h2 {
+    font-size: 32px;
+}
+
+
+/* ボタン */
+button {
+    padding: 12px 25px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #222;
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+
+/* ボタンにマウスを乗せる */
+button:hover {
+    background: #555;
+
+    transform: translateY(-2px);
+}
+
+
+/* JSから表示するメッセージ */
+#message {
+    margin-top: 20px;
+
+    font-weight: bold;
+}
+
+
+/* フッター */
+footer {
+    text-align: center;
+
+    padding: 30px;
+
+    background: #222;
+
+    color: white;
+}

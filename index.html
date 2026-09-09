@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IT会社</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- BGM -->
+<audio id="bgm" loop>
+    <source src="file/bgm.mp3" type="audio/mpeg">
+</audio>
+
+<!-- 音量コントロール -->
+<div class="volume-control">
+    <button id="volumeButton">🔊</button>
+
+    <input
+        type="range"
+        id="volumeSlider"
+        min="0"
+        max="1"
+        step="0.01"
+        value="0.5"
+    >
+</div>
+<body>
+
+    <!-- ヘッダー -->
+    <header>
+        <div class="logo">
+            IT会社
+        </div>
+
+        <nav>
+            <a href="#home">ホーム</a>
+            <a href="#about">会社情報</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+
+            <h1>IT会社</h1>
+
+            <p>タブレットを、もっと楽しく</p>
+
+            <button id="aboutButton">
+                会社について
+            </button>
+
+        </section>
+
+
+        <!-- 会社情報 -->
+        <section id="about" class="about">
+
+            <h2>私たちについて</h2>
+
+            <p>
+IT会社は、タブレット関連のいろいろなことをします
+             
+            </p>
+
+            <button id="detailButton">
+                詳しく見る
+            </button>
+
+            <p id="message"></p>
+
+        </section>
+
+
+
+        <section id="contact" class="contact">
+
+            <h2>お問い合わせ</h2>
+
+            <p>
+		質問は、すべてITヘルプにお問い合わせしてください
+            </p>
+
+            <button id="contactButton">
+                お問い合わせする
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <!-- フッター -->
+    <footer>
+        <p>© 2026 IT会社（仮）</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
