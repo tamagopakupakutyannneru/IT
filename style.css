@@ -1,4 +1,11 @@
-
+.game-character {
+    display: block;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto 20px;
+    border-radius: 12px;
+}
 @font-face {
     font-family: "EggFont";
     src: url("file/font.ttf") format("truetype");
@@ -191,4 +198,12 @@ footer {
     background: #222;
 
     color: white;
+}
+.game-character {
+    display: block;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto 20px;
+    border-radius: 12px;
 }
